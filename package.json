@@ -1,0 +1,25 @@
+{
+  "name": "gestao-servicos-leitos",
+  "version": "1.0.0",
+  "description": "Sistema para gerenciamento dos serviços de leito. Limpeza terminal e concorrente, interdição, rouparia entre outros.",
+  "main": "index.js",
+  "repository": "https://github.com/tecnicoroot/gestao-servicos-leitos.git",
+  "author": "David Luis da Silva <tecnicoroot@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn ts-node-dev ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-status-codes": "^2.3.0"
+  }
+}

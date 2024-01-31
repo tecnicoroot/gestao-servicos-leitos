@@ -1,0 +1,6 @@
+
+@url_base = http://localhost:3030
+
+#GET
+GET {{url_base}}/ HTTP/1.1
+###
